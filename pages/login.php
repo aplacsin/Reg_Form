@@ -73,7 +73,7 @@ if (isset($_POST["login"])) {
                 </p>
                 <p><span class="error"><?php echo $messageError;?></span></p>
                 <p class="submit"><input class="button" name="login" type="submit" value="Войти"></p>
-                <p class="login-text">Еще не зарегистрированы?<a href="signup.php">Регистрация</a>.</p>
+                <p class="login-text">Еще не зарегистрированы?<br><a href="signup.php">Регистрация</a>.</p>
             </form>
         </div>
     </div>
